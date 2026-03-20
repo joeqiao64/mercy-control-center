@@ -17,9 +17,25 @@
       <button id="refreshBtn" class="refresh">Refresh</button>
     </header>
 
+    <section id="modeBanner" class="mode-banner card"></section>
+
     <section class="system-panel card">
-      <div class="section-title">System Overview</div>
+      <div class="section-head">
+        <div class="section-title">System Overview</div>
+        <div id="generatedAt" class="section-note"></div>
+      </div>
       <div id="systemOverview" class="stats-grid"></div>
+    </section>
+
+    <section class="two-up">
+      <div class="card">
+        <div class="section-title">Usage Snapshot</div>
+        <div id="usageSummary" class="list-stack"></div>
+      </div>
+      <div class="card">
+        <div class="section-title">Recent Sessions</div>
+        <div id="recentSessions" class="list-stack"></div>
+      </div>
     </section>
 
     <section>
