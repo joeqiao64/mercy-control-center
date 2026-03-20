@@ -1,0 +1,63 @@
+{
+  "generatedAt": 0,
+  "system": {
+    "agents": 3,
+    "gateway": "demo",
+    "defaultModel": "gpt-5.4",
+    "channel": "Telegram Mini App prototype",
+    "note": "Public demo-safe data"
+  },
+  "agents": [
+    {
+      "id": "main",
+      "theme": "mercy",
+      "name": "Mercy",
+      "role": "Main assistant",
+      "status": "active",
+      "model": "gpt-5.4",
+      "lastActive": "recently",
+      "usage": "demo",
+      "task": "Coordinating the system",
+      "identity": "Main assistant and control center",
+      "timeline": [
+        "Handles the default inbox",
+        "Coordinates specialist agents",
+        "Summarizes decisions"
+      ]
+    },
+    {
+      "id": "jarvis",
+      "theme": "jarvis",
+      "name": "Jarvis",
+      "role": "Ops / usage / config",
+      "status": "active",
+      "model": "gpt-5.4",
+      "lastActive": "recently",
+      "usage": "demo",
+      "task": "Watching runtime and cost",
+      "identity": "Ops, usage, and configuration specialist",
+      "timeline": [
+        "Tracks token efficiency",
+        "Helps explain config mismatches",
+        "Monitors runtime state"
+      ]
+    },
+    {
+      "id": "nick",
+      "theme": "nick",
+      "name": "Nick",
+      "role": "Research / trends / scouting",
+      "status": "active",
+      "model": "gpt-5.4",
+      "lastActive": "recently",
+      "usage": "demo",
+      "task": "Researching useful new workflows",
+      "identity": "Trend scout and practical researcher",
+      "timeline": [
+        "Tracks releases and workflows",
+        "Filters hype into signal",
+        "Suggests useful experiments"
+      ]
+    }
+  ]
+}

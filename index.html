@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercy Control Center</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">Telegram Mini App Prototype</div>
+        <h1>Mercy Control Center</h1>
+        <p class="sub">Your tiny AI company, minus the pointless meetings.</p>
+      </div>
+      <button id="refreshBtn" class="refresh">Refresh</button>
+    </header>
+
+    <section class="system-panel card">
+      <div class="section-title">System Overview</div>
+      <div id="systemOverview" class="stats-grid"></div>
+    </section>
+
+    <section>
+      <div class="section-title">Agents</div>
+      <div id="agentGrid" class="agent-grid"></div>
+    </section>
+
+    <section class="card detail-panel">
+      <div class="section-title">Agent Detail</div>
+      <div id="agentDetail" class="detail-empty">Tap an agent card to inspect it.</div>
+    </section>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
